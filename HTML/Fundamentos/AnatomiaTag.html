@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anatomia de uma Tag HTML">
+    <meta name="author" content="Seu Nome">
+    <title>Anatomia de uma Tag HTML</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Anatomia de uma Tag HTML</h1>
+
+        <p>
+            Para criar uma página na internet utilizando HTML é necessário conhecer
+            como funciona a estrutura das tags. Elas são responsáveis por organizar
+            e identificar cada elemento presente em um documento.
+        </p>
+
+        <hr>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <h2>O que é uma tag?</h2>
+
+            <p>
+                Uma tag é uma marcação utilizada para informar ao navegador qual é a
+                função de determinado conteúdo dentro da página. Existem tags para
+                títulos, parágrafos, imagens, listas, tabelas, formulários e muitos
+                outros elementos.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Estrutura de uma tag</h2>
+
+            <p>
+                Grande parte das tags HTML é composta por uma abertura, um conteúdo
+                e um fechamento.
+            </p>
+
+            <pre>
+&lt;p&gt;
+    Este é um parágrafo.
+&lt;/p&gt;
+            </pre>
+
+            <p>
+                Nesse exemplo, a tag <strong>&lt;p&gt;</strong> indica o início do
+                parágrafo e <strong>&lt;/p&gt;</strong> indica o seu término. O texto
+                escrito entre elas é chamado de conteúdo. :contentReference[oaicite:1]{index=1}
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Tag de abertura</h2>
+
+            <p>
+                A tag de abertura informa onde o elemento começa. Ela é formada pelo
+                sinal de menor que (&lt;), seguido do nome da tag e finalizada pelo
+                sinal de maior que (&gt;).
+            </p>
+
+            <pre>
+&lt;h1&gt;
+            </pre>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Tag de fechamento</h2>
+
+            <p>
+                A maioria das tags possui um fechamento. A diferença é que antes do
+                nome da tag existe uma barra (/), indicando o encerramento daquele
+                elemento.
+            </p>
+
+            <pre>
+&lt;/h1&gt;
+            </pre>
+
+            <p>
+                Isso ajuda o navegador a identificar onde determinado conteúdo termina.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Elemento HTML</h2>
+
+            <p>
+                Um elemento HTML é formado pela tag de abertura, pelo conteúdo e pela
+                tag de fechamento.
+            </p>
+
+            <pre>
+&lt;h1&gt;
+    Alimentação Saudável
+&lt;/h1&gt;
+            </pre>
+
+            <p>
+                Nesse caso, todo o conjunto representa um único elemento HTML. :contentReference[oaicite:2]{index=2}
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>O que são atributos?</h2>
+
+            <p>
+                Os atributos servem para fornecer informações adicionais sobre uma
+                determinada tag. Eles são escritos dentro da tag de abertura e são
+                compostos por um nome e um valor.
+            </p>
+
+            <pre>
+&lt;img src="logo.png"&gt;
+            </pre>
+
+            <p>
+                Nesse exemplo, <strong>src</strong> é o nome do atributo e
+                <strong>logo.png</strong> representa o seu valor. O atributo informa
+                qual imagem será carregada pelo navegador. :contentReference[oaicite:3]{index=3}
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Outro exemplo de atributo</h2>
+
+            <pre>
+&lt;video velocidade="2"&gt;
+            </pre>
+
+            <p>
+                Dependendo da tag utilizada, diferentes atributos podem ser aplicados
+                para modificar seu comportamento ou fornecer informações adicionais.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Importância do fechamento das tags</h2>
+
+            <p>
+                Fechar corretamente uma tag é uma boa prática de programação, pois
+                garante que o navegador interprete corretamente a estrutura do documento.
+            </p>
+
+            <p>
+                Quando uma tag não é fechada corretamente, podem ocorrer problemas na
+                organização da página, dificultando tanto a manutenção quanto a leitura
+                do código.
+            </p>
+
+            <pre>
+&lt;h1&gt;
+    Alimentação Saudável
+&lt;/h1&gt;
+
+Esse texto está fora da tag.
+            </pre>
+
+            <p>
+                No exemplo acima, apenas o título pertence ao elemento
+                <strong>&lt;h1&gt;</strong>. O texto seguinte já faz parte do restante
+                do documento. :contentReference[oaicite:4]{index=4}
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Conclusão</h2>
+
+            <p>
+                Compreender a anatomia de uma tag é um dos primeiros passos para aprender
+                HTML. Saber identificar a abertura, o fechamento, o conteúdo e os
+                atributos facilita o desenvolvimento de páginas organizadas, semânticas
+                e de fácil manutenção.
+            </p>
+
+            <p>
+                Esse conhecimento serve como base para aprender outros recursos do HTML,
+                além de facilitar o estudo de CSS e JavaScript futuramente.
+            </p>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>Desenvolvido utilizando apenas HTML5.</p>
+
+        <p>Disciplina: Desenvolvimento Web</p>
+
+    </footer>
+
+</body>
+
+</html>
