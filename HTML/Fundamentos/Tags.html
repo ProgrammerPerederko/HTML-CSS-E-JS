@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<!--
+    <!DOCTYPE html>
+
+    Informa ao navegador que este documento utiliza HTML5.
+    Sempre deve ser a primeira linha do arquivo.
+-->
+
+<html lang="pt-BR">
+<!--
+    <html>
+
+    É a raiz (pai) de todo o documento HTML.
+
+    Tudo o que existe na página deve ficar dentro dela.
+
+    lang="pt-BR"
+    Define o idioma principal da página.
+    Isso ajuda navegadores, mecanismos de busca e leitores de tela.
+-->
+
+<head>
+
+    <!--
+        A tag <head> guarda informações da página.
+
+        O conteúdo colocado aqui normalmente NÃO aparece
+        diretamente para o usuário.
+
+        Aqui ficam:
+        - título da página
+        - codificação
+        - descrição
+        - palavras-chave
+        - arquivos CSS
+        - arquivos JavaScript
+        - favicon
+        - entre outras configurações.
+    -->
+
+    <meta charset="UTF-8">
+    <!--
+        charset="UTF-8"
+
+        Permite utilizar acentos, cedilha, símbolos e emojis.
+
+        Sem essa configuração podem aparecer caracteres estranhos.
+    -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        Faz a página funcionar corretamente em celulares,
+        tablets e computadores.
+    -->
+
+    <meta name="description" content="Página criada para estudar HTML.">
+    <!--
+        Descrição da página.
+
+        Muito utilizada pelo Google quando indexa um site.
+    -->
+
+    <meta name="author" content="Seu Nome">
+    <!--
+        Define o autor da página.
+    -->
+
+    <title>Curso de HTML</title>
+
+    <!--
+        O título aparece:
+
+        ✔ na aba do navegador
+        ✔ nos favoritos
+        ✔ nos resultados de pesquisa
+    -->
+
+</head>
+
+<body>
+
+    <!--
+        Tudo que aparece para o usuário
+        fica dentro do BODY.
+    -->
+
+
+
+    <!-- ================================================= -->
+    <!-- HEADER                                             -->
+    <!-- ================================================= -->
+
+    <header>
+
+        <!--
+            Cabeçalho da página.
+
+            Geralmente contém:
+
+            - Logo
+            - Nome do site
+            - Menu
+            - Pesquisa
+        -->
+
+        <h1>Curso Completo de HTML</h1>
+
+        <!--
+            h1
+
+            É o título principal da página.
+
+            Deve existir apenas um H1 por página,
+            representando o assunto principal.
+        -->
+
+        <nav>
+
+            <!--
+                NAV
+
+                Representa um menu de navegação.
+            -->
+
+            <a href="#">Início</a>
+
+            <!--
+                <a>
+
+                Cria um link.
+
+                href = endereço para onde o usuário será enviado.
+            -->
+
+            <a href="#">Sobre</a>
+
+            <a href="#">Contato</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================================================= -->
+    <!-- MAIN                                               -->
+    <!-- ================================================= -->
+
+    <main>
+
+        <!--
+            MAIN
+
+            Representa o conteúdo principal da página.
+
+            O ideal é existir apenas um MAIN.
+        -->
+
+
+
+        <!-- ============================================= -->
+
+        <section>
+
+            <!--
+                SECTION
+
+                Agrupa conteúdos relacionados.
+
+                Funciona como um capítulo de um livro.
+            -->
+
+            <h2>O que é HTML?</h2>
+
+            <p>
+
+                <!--
+                    P
+
+                    Representa um parágrafo.
+                -->
+
+                HTML significa HyperText Markup Language.
+
+            </p>
+
+        </section>
+
+
+
+        <!-- ============================================= -->
+
+        <section>
+
+            <h2>Exemplo de Lista</h2>
+
+            <h3>Lista não ordenada</h3>
+
+            <!--
+                UL
+
+                Lista sem ordem.
+            -->
+
+            <ul>
+
+                <!--
+                    LI
+
+                    Item da lista.
+                -->
+
+                <li>HTML</li>
+
+                <li>CSS</li>
+
+                <li>JavaScript</li>
+
+            </ul>
+
+
+
+            <h3>Lista ordenada</h3>
+
+            <!--
+                OL
+
+                Lista numerada.
+            -->
+
+            <ol>
+
+                <li>Aprender HTML</li>
+
+                <li>Aprender CSS</li>
+
+                <li>Aprender JavaScript</li>
+
+            </ol>
+
+        </section>
+
+
+
+        <!-- ============================================= -->
+
+        <section>
+
+            <h2>Imagem</h2>
+
+            <img src="imagem.jpg" alt="Logo do curso">
+
+            <!--
+                IMG
+
+                Exibe uma imagem.
+
+                src = caminho da imagem
+
+                alt = descrição da imagem
+
+                Muito importante para acessibilidade.
+            -->
+
+        </section>
+
+
+
+        <!-- ============================================= -->
+
+        <section>
+
+            <h2>Tabela</h2>
+
+            <!--
+                TABLE
+
+                Cria uma tabela.
+            -->
+
+            <table border="1">
+
+                <tr>
+
+                    <!--
+                        TR
+
+                        Linha da tabela.
+                    -->
+
+                    <th>Nome</th>
+
+                    <!--
+                        TH
+
+                        Cabeçalho da tabela.
+                    -->
+
+                    <th>Idade</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>João</td>
+
+                    <!--
+                        TD
+
+                        Coluna da tabela.
+                    -->
+
+                    <td>20</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+
+
+        <!-- ============================================= -->
+
+        <section>
+
+            <h2>Formulário</h2>
+
+            <!--
+                FORM
+
+                Cria um formulário.
+            -->
+
+            <form>
+
+                <label for="nome">
+
+                    <!--
+                        LABEL
+
+                        Nome de um campo.
+                    -->
+
+                    Nome
+
+                </label>
+
+                <br>
+
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <!--
+                    INPUT
+
+                    Campo para entrada de dados.
+
+                    Existem vários tipos:
+
+                    text
+                    email
+                    password
+                    number
+                    checkbox
+                    radio
+                    date
+                    file
+                -->
+
+                <br><br>
+
+                <label>Email</label>
+
+                <br>
+
+                <input type="email" placeholder="Digite seu email">
+
+                <br><br>
+
+                <button>
+
+                    <!--
+                        BUTTON
+
+                        Cria um botão.
+                    -->
+
+                    Enviar
+
+                </button>
+
+            </form>
+
+        </section>
+
+
+
+        <!-- ============================================= -->
+
+        <article>
+
+            <!--
+                ARTICLE
+
+                Conteúdo independente.
+
+                Exemplo:
+
+                notícia
+
+                postagem
+
+                artigo
+
+                publicação
+            -->
+
+            <h2>Artigo</h2>
+
+            <p>Este é um artigo independente.</p>
+
+        </article>
+
+
+
+        <!-- ============================================= -->
+
+        <aside>
+
+            <!--
+                ASIDE
+
+                Conteúdo complementar.
+
+                Exemplo:
+
+                publicidade
+
+                notícias relacionadas
+
+                links úteis
+
+                curiosidades
+            -->
+
+            <h3>Curiosidade</h3>
+
+            <p>O HTML surgiu em 1991.</p>
+
+        </aside>
+
+
+
+    </main>
+
+
+
+    <!-- ================================================= -->
+    <!-- FOOTER                                             -->
+    <!-- ================================================= -->
+
+    <footer>
+
+        <!--
+            Rodapé da página.
+
+            Geralmente possui:
+
+            direitos autorais
+
+            redes sociais
+
+            telefone
+
+            e-mail
+
+            endereço
+
+            links importantes
+        -->
+
+        <p>© 2026 - Curso de HTML.</p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
