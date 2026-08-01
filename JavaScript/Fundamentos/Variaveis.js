@@ -46,4 +46,4 @@ let valorUndefined;
 
 valorUndefined = "Valor"
 
-console.log(valorUndefined)
+console.log(valor)
